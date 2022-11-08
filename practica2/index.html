@@ -4,69 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./css/styles.css">
     <title>Cake-X</title>
 </head>
 <body>
     <header>
         <h1>Cake-X, desde 2022</h1>
+        <img src="./img/cake-x.png" alt="Logo Cake-X"/>
     </header>
 
-    <img src="./img/cake-x.png" alt="Logo Cake-X"/>
+    <article>
+        <h2>Menu</h2>
 
-    <h2>Menu</h2>
+        <h3>Pasteles Grandes</h3>
+        <ul>
+            <li>Fresa .................. $60</li>
+            <li>Mora .................. $60</li>
+            <li>Cereza .................. $60</li>
+            <li>Piña .................. $60</li>
+        </ul>
 
-    <h3>Pasteles Grandes</h3>
-    <ul>
-        <li>Fresa .................. $60</li>
-        <li>Mora .................. $60</li>
-        <li>Cereza .................. $60</li>
-        <li>Piña .................. $60</li>
-    </ul>
+        <h3>Especiales</h3>
+        <dl>
+            <dt><strong>Mercurio</strong> .................. $100</dt>
+            <dd>Pastel clasico acompañado de una ligera capa de crema</dd>
+            <dt><strong>Venus</strong> .................. $100</dt>
+            <dd>Flan de diferentes frutas</dd>
+            <dt><strong>Tierra</strong> .................. $100</dt>
+            <dd>Pie de diferentes tipos de verduras</dd>
+            <dt><strong>Marte</strong> .................. $100</dt>
+            <dd>Pastel a base de frutos rojos</dd>
+            <dt><strong>Pluton</strong> .................. $70</dt>
+            <dd>Pastel frío preparado en capas</dd>
+            <dt><strong>Luna</strong> .................. $70</dt>
+            <dd>Cheesecake con crema de leche o frutas.</dd>
+            <dt><strong>Sol</strong> .................. $500</dt>
+            <dd>Pastel de tres pisos a base de frutos amarillos</dd>
+        </dl>
 
-    <h3>Especiales</h3>
-    <dl>
-        <dt><strong>Mercurio</strong> .................. $100</dt>
-        <dd>Pastel clasico acompañado de una ligera capa de crema</dd>
-        <dt><strong>Venus</strong> .................. $100</dt>
-        <dd>Flan de diferentes frutas</dd>
-        <dt><strong>Tierra</strong> .................. $100</dt>
-        <dd>Pie de diferentes tipos de verduras</dd>
-        <dt><strong>Marte</strong> .................. $100</dt>
-        <dd>Pastel a base de frutos rojos</dd>
-        <dt><strong>Pluton</strong> .................. $70</dt>
-        <dd>Pastel frío preparado en capas</dd>
-        <dt><strong>Luna</strong> .................. $70</dt>
-        <dd>Cheesecake con crema de leche o frutas.</dd>
-        <dt><strong>Sol</strong> .................. $500</dt>
-        <dd>Pastel de tres pisos a base de frutos amarillos</dd>
-    </dl>
+        <h3>Personalizado</h3>
+        <p>Base:</p>
+        <div>
+            <input type="radio" id="leche" name="base" value="leche">
+            <label for="leche">Tres Leches ($30)</label>
 
-    <h3>Personalizado</h3>
-    <p>Base:</p>
-    <input type="radio" id="leche" name="base" value="leche">
-    <label for="leche">Tres Leches ($30)</label>
+            <input type="radio" id="queso" name="base" value="queso">
+            <label for="queso">Cheesecake ($40)</label>
 
-    <input type="radio" id="queso" name="base" value="queso">
-    <label for="queso">Cheesecake ($40)</label>
+            <input type="radio" id="clasico" name="base" value="clasico">
+            <label for="clasico">Clasico ($20)</label>
+        </div>
 
-    <input type="radio" id="clasico" name="base" value="clasico">
-    <label for="clasico">Clasico ($20)</label>
+        <p>Cubiertas:</p>
+        <div>
+            <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+            <label for="chocolate">Chocolate fundido ($40)</label>
 
-    <p>Cubiertas:</p>
-    <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
-    <label for="chocolate">Chocolate fundido ($40)</label>
+            <input type="checkbox" id="frutas" name="frutas" value="frutas">
+            <label for="frutas">Frutas ($30)</label>
 
-    <input type="checkbox" id="frutas" name="frutas" value="frutas">
-    <label for="frutas">Frutas ($30)</label>
+            <input type="checkbox" id="galletas" name="galletas" value="galletas">
+            <label for="galletas">Galletas ($35)</label>
 
-    <input type="checkbox" id="galletas" name="galletas" value="galletas">
-    <label for="galletas">Galletas ($35)</label>
+            <input type="checkbox" id="gomitas" name="gomitas" value="gomitas">
+            <label for="gomitas">Gomitas ($30)</label>
 
-    <input type="checkbox" id="gomitas" name="gomitas" value="gomitas">
-    <label for="gomitas">Gomitas ($30)</label>
-
-    <input type="checkbox" id="crema" name="crema" value="crema">
-    <label for="crema">Crema adicional ($20)</label>
-    
+            <input type="checkbox" id="crema" name="crema" value="crema">
+            <label for="crema">Crema adicional ($20)</label>
+        </div>
+    </article>
 </body>
 </html>
