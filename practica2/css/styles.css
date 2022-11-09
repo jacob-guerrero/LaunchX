@@ -22,3 +22,9 @@ form > div {
     margin-top: 30px;
     text-align: center;
 }
+table {
+    margin-top: 30px;
+}
+th, td {
+    padding: 0 20px;
+}
