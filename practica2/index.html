@@ -37,41 +37,92 @@
             <dt><strong>Pluton</strong> .................. $70</dt>
             <dd>Pastel frío preparado en capas</dd>
             <dt><strong>Luna</strong> .................. $70</dt>
-            <dd>Cheesecake con crema de leche o frutas.</dd>
+            <dd>Cheesecake con crema de leche o frutas</dd>
             <dt><strong>Sol</strong> .................. $500</dt>
             <dd>Pastel de tres pisos a base de frutos amarillos</dd>
         </dl>
 
-        <h3>Personalizado</h3>
-        <p>Base:</p>
-        <div>
-            <input type="radio" id="leche" name="base" value="leche">
-            <label for="leche">Tres Leches ($30)</label>
 
-            <input type="radio" id="queso" name="base" value="queso">
-            <label for="queso">Cheesecake ($40)</label>
+        <form action="" id="form1" method="post">
 
-            <input type="radio" id="clasico" name="base" value="clasico">
-            <label for="clasico">Clasico ($20)</label>
-        </div>
+            <h3>Personalizado</h3>
+            <p>Base:</p>
+            <div>
+                <div class="bases">
+                    <input type="radio" id="leche" name="base" value="leche">
+                    <label for="leche">Tres Leches ($30)</label>
+                </div>
 
-        <p>Cubiertas:</p>
-        <div>
-            <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
-            <label for="chocolate">Chocolate fundido ($40)</label>
+                <div class="bases">
+                    <input type="radio" id="queso" name="base" value="queso">
+                    <label for="queso">Cheesecake ($40)</label>
+                </div>
 
-            <input type="checkbox" id="frutas" name="frutas" value="frutas">
-            <label for="frutas">Frutas ($30)</label>
+                <div class="bases">
+                    <input type="radio" id="clasico" name="base" value="clasico">
+                    <label for="clasico">Clasico ($20)</label>
+                </div>
+            </div>
 
-            <input type="checkbox" id="galletas" name="galletas" value="galletas">
-            <label for="galletas">Galletas ($35)</label>
+            <p>Cubiertas:</p>
+            <div>
+                <div class="cubiertas">
+                    <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+                    <label for="chocolate">Chocolate fundido ($40)</label>
+                </div>
 
-            <input type="checkbox" id="gomitas" name="gomitas" value="gomitas">
-            <label for="gomitas">Gomitas ($30)</label>
+                <div class="cubiertas">
+                    <input type="checkbox" id="frutas" name="frutas" value="frutas">
+                    <label for="frutas">Frutas ($30)</label>
+                </div>
 
-            <input type="checkbox" id="crema" name="crema" value="crema">
-            <label for="crema">Crema adicional ($20)</label>
-        </div>
+                <div class="cubiertas">
+                    <input type="checkbox" id="galletas" name="galletas" value="galletas">
+                    <label for="galletas">Galletas ($35)</label>
+                </div>
+
+                <div class="cubiertas">
+                    <input type="checkbox" id="gomitas" name="gomitas" value="gomitas">
+                    <label for="gomitas">Gomitas ($30)</label>
+                </div>
+
+                <div class="cubiertas">
+                    <input type="checkbox" id="crema" name="crema" value="crema">
+                    <label for="crema">Crema adicional ($20)</label>
+                </div>
+            </div>
+
+            <p>Datos:</p>
+            <div>
+                <div class="form">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+
+                <div class="form">
+                    <label for="telefono">Telefono:</label>
+                    <input type="tel" id="telefono" name="telefono" maxlength="10">
+                </div>
+                
+                <div class="form">
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo">
+                </div>
+
+                <div class="form">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+
+                <div class="btns">
+                    <input type="reset">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+
+        </form>
+
     </article>
+
 </body>
 </html>

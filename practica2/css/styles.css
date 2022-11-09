@@ -12,6 +12,13 @@ h2 {
 dl {
     padding: 0 18px;
 }
-div {
+form > div {
     padding: 0 18px;
+}
+.bases, .cubiertas, .form input{
+    display: block;
+}
+.btns {
+    margin-top: 30px;
+    text-align: center;
 }
