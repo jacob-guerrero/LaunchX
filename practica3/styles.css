@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: wheat;
+    color: #fff;
+}
+.nav-links a {
+    color: gray;
+}
+#head-title {
+    font-size: 32px;
+    color: blue;
+}
