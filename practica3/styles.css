@@ -12,15 +12,27 @@ li {
 }
 
 .navbar {
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    background-color: wheat;
+    background-color: rgba(245, 222, 179, 0.5);
     color: #fff;
+}
+.nav-links {
+    display: flex;
 }
 .nav-links a {
     color: gray;
+    margin: 2px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+#action a {
+    background-color: blue;
+    color: #eee;
 }
 #head-title {
     font-size: 32px;
